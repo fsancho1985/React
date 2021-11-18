@@ -1,0 +1,54 @@
+.card-login {
+    width: 320px;
+    height: 355px;
+    background: #040404;
+    border-radius: 3px;
+    border: 5px solid #403423;
+    color: #FFD18D;
+}
+
+.card-login label {
+    margin: 14px 25px 7px 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.card-login input {
+    width: 270px;
+    height: 30px;
+    border: 1px solid #000000;
+}
+
+.img-card-login {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-login {
+    width: 270px;
+    height: 35px;
+    background: #bf9d69;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 28px 25px 40px 25px;
+}
+
+.btn-login:hover {
+    background: #403423;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+@media(max-width: 770px){
+    .modal-content {
+        width: 320px !important;
+    }
+}
+

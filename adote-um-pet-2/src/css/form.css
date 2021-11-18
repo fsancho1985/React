@@ -1,0 +1,113 @@
+.container-form {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: #403423;
+}
+
+.card-form {
+    background-color: #ffffff;
+    width: 330px;
+    height: 427px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 36px;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    width: 150px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    align-self: flex-start;
+}
+
+
+.form-name {
+    margin: 40px 0 7px 10px;
+}
+
+.form-email {
+    margin: 17px 0 7px 10px;
+}
+
+.form-phone {
+    margin: 17px 0 7px 10px;
+}
+
+.form-message {
+    margin: 17px 0 7px 10px;
+}
+
+.btn-send {
+    margin: 25px 0 22px 0;
+}
+
+form input {
+    padding: 05px;
+    width: 310px;
+    height: 30px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    justify-content: space-around;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 12px;
+}
+
+form input:hover {
+    border: 1px solid #BF9D69;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 12px;
+}
+
+form textarea {
+    width: 310px;
+    height: 80px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    padding: 05px;
+    resize: none;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 12px;
+}
+
+form textarea:hover {
+    border: 1px solid #BF9D69;
+    box-sizing: border-box;
+}
+
+.btn-send {
+    width: 280px;
+    height: 35px;
+    background: #bf9d69;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 25px 0 22px 0;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+.btn-send:hover {
+    background: #403423;
+    cursor: pointer;
+    box-sizing: border-box;
+}

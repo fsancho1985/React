@@ -1,0 +1,96 @@
+main {
+    display: flex;
+    justify-content: center;
+    background-color: #E6BC7E;
+}
+
+main h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #333333;
+}
+
+main p {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 9px;
+    color: #403423;
+    margin: -10px;
+}
+
+.main-container {
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 60px;
+}
+
+.main-container img {
+    margin: 40px 20px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.box-pets {
+    display: flex;
+    background-color: aliceblue;
+    width: 340px;
+    height: 180px;
+    background: #ffffff;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .box-pets h3 {
+    width: 150px;
+    height: 69px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20px;
+  
+    color: #333333;
+  }
+  
+  .box-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .pets {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px;
+  }
+  
+  .pets img {
+    max-width: 150px;
+    width: 100%;
+    max-height: 150px;
+    height: 100%;
+    margin: 15px;
+  
+    box-sizing: border-box;
+  }

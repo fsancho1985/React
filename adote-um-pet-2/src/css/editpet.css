@@ -1,0 +1,111 @@
+form label {
+    width: 305px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    align-self: flex-start;
+}
+
+.register-edit {
+    display: inline-block;
+    height: 355px;
+    background: #E6BC7E;
+    border: 1px solid #040404;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+
+.register-edit p {
+    margin: 15px 0 37px 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.register label {
+    width: 310px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #403423;
+}
+
+.register-edit select {
+    width: 310px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.field-edit {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputs-edit {
+    margin: 0 0 25px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.select-adoption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-select-adoption label {
+    display: flex;
+    justify-content: center;
+    margin: 0 50px;
+}
+
+.select-adoption select {
+    display: flex;
+    justify-content: space-evenly;
+    width: 310px;
+    height: 30px;
+    margin: 0 0 25px 0;
+}
+
+.card-btn-pet {
+    margin: 0;
+}
+
+.mobile-register-edit {
+    display: none;
+}
+
+@media(max-width: 992px) {
+    .field-edit, .inputs-edit, .select-adoption, .card-btn-pet, .card-btn-pet {
+        display: none;
+    }
+    .register-edit {
+        display: flex;
+        width: 340px;
+        height: 560px;
+        margin: 0;
+    }
+    .register-edit p {
+        margin: 15px 0 15px 15px;
+    }
+    .mobile-register-edit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile-register-edit label {
+        margin: 15px 0 0 0;
+    }
+    .card-btn-pet-mobile {
+        display: flex;
+        flex-direction: column;
+        margin: 15px 0 0 0;
+    }
+}

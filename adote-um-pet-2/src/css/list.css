@@ -1,0 +1,532 @@
+/* Estilo para a lista de pets cadastrados */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-pets {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+    height: 108px;
+    background: #E6BC7E;
+    border: 1px solid #040404;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 79px;
+}
+
+.total h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #403423;
+    padding: 12px;
+}
+
+.total p {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: flex-end;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 49px;
+    line-height: 57px;
+    color: #000000;
+    padding-right: 15px;
+}
+
+.adopted {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 290px;
+    height: 108px;
+    background: #E6BC7E;
+    border: 1px solid #040404;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 79px;
+}
+
+.adopted h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #403423;
+    padding: 12px;
+}
+
+.adopted p {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: flex-end;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 49px;
+    line-height: 57px;
+    color: #000000;
+    padding-right: 15px;
+}
+
+.table-pets {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 800px;
+    height: 293px;
+    background: #E6BC7E;
+    border: 1px solid #040404;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+table {
+    background-color: #ffffff;
+    width: 770px;
+    border-radius: 10px;
+    margin: 15px 15px 22px 15px;
+}
+
+table th {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #403423;
+    text-align: center;
+}
+
+table td {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    text-align: center;
+}
+
+table td {
+    margin-top: 0;
+}
+
+.table-pets p {
+    margin: 15px 0 0 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #403423;
+}
+
+.btn-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    margin: 25px 0 22px 0;
+}
+
+.insert-pet {
+    width: 280px;
+    height: 35px;
+    background: #bf9d69;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 25px 0 22px 0;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+.insert-pet:hover {
+    background: #403423;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.logout {
+    width: 280px;
+    height: 35px;
+    background: #bf9d69;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 25px 0 22px 0;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+.logout:hover {
+    background: #403423;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+/* Estilos para o modal de registro de pets */
+
+.register {
+    display: inline-block;
+    height: 305px;
+    background: #E6BC7E;
+    border: 1px solid #040404;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+
+.register p {
+    margin: 15px 0 37px 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.register label {
+    width: 310px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #403423;
+}
+
+.register select {
+    width: 310px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.labels {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputs {
+    margin: 0 0 25px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-register {
+    width: 300px;
+    height: 35px;
+    background: #403423;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.btn-register:hover {
+    background:#F59606;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.btn-cancel {
+    width: 300px;
+    height: 35px;
+    background: #403423;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.btn-cancel:hover {
+    background:#F59606;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.btn-delete {
+    width: 300px;
+    height: 35px;
+    background: #403423;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.btn-delete:hover {
+    background:#F59606;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.btn-deny {
+    width: 300px;
+    height: 35px;
+    background: #403423;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.btn-deny:hover {
+    background:#F59606;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.card-btn-pet {
+    width: 100%;
+    margin: 26px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-delete {
+    background: #E6BC7E;
+    width: 100%;
+    height: 143px;
+    margin: 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.card-btn-delete {
+    width: 100%;
+    margin: 26px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .form-mobile-register, .card-btn-pet-mobile {
+    display: none;
+} */
+
+@media(max-width: 900px) {
+    .table-pets {
+        width: 620px;
+    }
+    .gender {
+        display: none;
+    }
+    .breed {
+        display: none;
+    }
+    .species {
+        display: none;
+    }
+    table {
+        width: 580px;
+    }
+}
+
+@media(max-width: 993px) {
+    .card-delete {
+        height: 418px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-delete h4 {
+        text-align: center;
+        /* margin: 55px 36px 0 36px; */
+    }
+    .card-btn-delete {
+        flex-direction: column;
+    }
+    .card-btn-delete button {
+        width: 280px;
+    }
+    .btn-delete {
+        margin: 15px;
+    }
+}
+
+@media(max-width: 770px) {
+    .register p {
+        margin: 15px 0 10px 15px;
+    }
+    .form-mobile-register {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-mobile-register label {
+        margin: 10px;
+        align-self: center;
+    }
+    .register {
+        width: 340px;
+        height: 560px;
+    }
+    .labels, .inputs {
+        display: none;
+    }
+    .card-btn-pet {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .btn-register {
+        margin-bottom: 10px;
+    }
+    .container-pets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .adopted {
+        margin-top: 10px;
+        width: 620px;
+        height: 67px;
+    }
+    .adopted p {
+        justify-content: space-between;
+    }    
+    .total {
+        margin-top: 10px;
+        width: 620px;
+        height: 67px;
+    }
+    .total p {
+        justify-content: space-between;
+    }
+    .btn-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .insert-pet {
+        width: 620px;
+        height: 50px;
+        margin: 30px 0 10px 0;
+    }
+    .logout {
+        width: 620px;
+        height: 50px;
+        margin: 0;
+    }
+}
+
+@media(max-width: 470px) {
+    .table-pets {
+        width: 400px;
+    }
+    table {
+        width: 370px;
+    }
+    .age {
+        display: none;
+    }
+    .container-pets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .adopted {
+        margin-top: 10px;
+        width: 400px;
+        height: 67px;
+    }
+    .adopted p {
+        justify-content: space-between;
+    }    
+    .total {
+        margin-top: 10px;
+        width: 400px;
+        height: 67px;
+    }
+    .total p {
+        justify-content: space-between;
+    }
+    .btn-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .insert-pet {
+        width: 400px;
+        height: 50px;
+        margin: 30px 0 10px 0;
+    }
+    .logout {
+        width: 400px;
+        height: 50px;
+        margin: 0;
+    }.card-btn-delete button {
+        width: 200px;
+    }
+}
+
+@media(max-width: 360px) {
+    .table-pets {
+        width: 310px;
+        height: 279px;
+    }
+    table {
+        width: 280px;
+    }
+    .container-pets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .adopted {
+        margin-top: 10px;
+        width: 310px;
+        height: 47px;
+    }
+    .adopted p {
+        justify-content: space-between;
+        font-size: 40px;
+    }    
+    .total {
+        margin-top: 10px;
+        width: 310px;
+        height: 47px;
+    }
+    .total p {
+        justify-content: space-between;
+        font-size: 40px;
+    }
+    .btn-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .insert-pet {
+        width: 310px;
+        height: 30px;
+        margin: 15px 0 10px 0;
+    }
+    .logout {
+        width: 310px;
+        height: 30px;
+        margin: 0;
+    }
+    .card-btn-delete button {
+        width: 180px;
+    }
+}
