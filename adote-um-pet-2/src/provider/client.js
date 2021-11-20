@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const client = axios.create({
-    baseURL: 'http://otterwise-fake-api.herokuapp.com/pets'
+    baseURL: 'https://otterwise-fake-api.herokuapp.com/pets'
 })
 
 client.interceptors.request.use((config)=>{
@@ -14,5 +14,5 @@ client.interceptors.request.use((config)=>{
 })
 
 export const client2 = axios.create({
-    baseURL: 'http://otterwise-fake-api.herokuapp.com/'
+    baseURL: 'https://otterwise-fake-api.herokuapp.com/'
 })
